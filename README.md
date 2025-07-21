@@ -13,8 +13,8 @@ A minimal, intuitive, and fast note-taking application built with **React**. Thi
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, TypeScript
-- **Styling**: Tailwind CSS
+- **Frontend**: React
+- **Styling**: CSS
 - **Icons**: Lucide React
 - **State Management**: React Hooks (`useState`, `useEffect`)
 
