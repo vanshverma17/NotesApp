@@ -1,0 +1,77 @@
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next row */
+    gap: 16px; /* Space between cards */
+    justify-content: flex-start; /* Aligns cards from the start */
+    padding: 16px;
+}
+
+.card {
+    width: 297px;
+    min-height: 200px;
+    background-color: #eeecc4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.date-time {
+    font-size: 14px;
+    font-family: monospace;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-text textarea {
+    width: 100%;
+    min-height: 120px;
+    border: none;
+    outline: none;
+    color: black;
+    resize: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.note-text textarea::placeholder {
+    color: grey;
+}
+
+
+.dark-mode .card{
+    width: 297px;
+    min-height: 200px;
+    background-color: #1d1c1c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dark-mode .note-text textarea {
+    width: 100%;
+    min-height: 120px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    resize: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background: transparent;
+}
