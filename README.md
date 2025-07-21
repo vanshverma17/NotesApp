@@ -1,12 +1,74 @@
-# React + Vite
+📝 NotesApp
+A minimal, intuitive, and fast note-taking application built with React. This app allows users to create, edit, delete, and manage personal notes efficiently with a clean and responsive user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🧠 Create Notes – Quickly jot down your thoughts.
 
-Currently, two official plugins are available:
+📝 Edit Notes – Make changes anytime.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🗑️ Delete Notes – Remove unwanted notes easily.
 
-## Expanding the ESLint configuration
+🌙 Dark Mode Support – Toggle between light and dark themes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Responsive Design – Optimized for all screen sizes.
+
+💾 LocalStorage Integration – Notes persist even after refresh.
+
+🛠️ Tech Stack
+Frontend: React, TypeScript
+
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+State Management: React Hooks (useState, useEffect)
+
+📸 Screenshots
+Add screenshots here if available to visually represent the UI and functionality.
+
+🔧 Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/vanshverma17/NotesApp.git
+cd NotesApp
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Open in browser:
+
+arduino
+Copy
+Edit
+http://localhost:5173
+📁 Folder Structure
+bash
+Copy
+Edit
+src/
+│
+├── components/      # Reusable components
+├── assets/          # Static assets (icons, images)
+├── App.tsx          # Root component
+└── main.tsx         # Entry point
+🙌 Contributing
+Pull requests are welcome! If you'd like to contribute, fork the repo and create a new branch:
+
+bash
+Copy
+Edit
+git checkout -b feature/yourFeature
+📜 License
+This project is licensed under the MIT License.
+
